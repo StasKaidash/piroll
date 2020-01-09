@@ -1,0 +1,176 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	font-family: 'Montserrat Subrayada', sans-serif;
+	font-family: 'Nunito', sans-serif;
+
+}
+
+
+
+ul, li {
+	display: block;
+}
+
+a {
+	text-decoration: none;
+}
+
+.container {
+	width: 1125px;
+	margin: 0 auto;
+}
+
+
+
+
+.navigation {
+	display: flex;
+} 
+
+.navigation__img {
+	margin: 20px 0px 0px 100px;
+    width: 25px;
+    height: 26px;
+}
+
+.navigation_boxs {
+	width: 100%;
+}
+
+.navigation__main {
+	float: right;
+	padding-top: 17px;
+}
+
+
+.navigation__menu {
+	display: flex;
+	font-size: 12px;
+}
+
+.navigation__menu li {
+	margin-right: 40px;
+}
+
+.navigation__cta {
+	color: #000;
+	font-weight: 700;
+}
+
+.navigation__cta:hover {
+	color: #10c9c3;
+}
+
+.design {
+    line-height: 1.9em;
+    background: #f6f6f6;
+    height: 320px;
+}
+
+.design__item {
+	text-align: center;	
+}
+
+h1 {
+	font-size: 38px;
+	font-weight: 400;
+	padding-top: 105px;
+}
+
+.design__text {
+	font-size: 18px;
+	margin: 40px 0px;
+}
+
+.animation {
+	line-height: 0;
+}
+
+.animation__box {
+	display: flex;
+}
+
+.animation__magic {
+	width: 25%;
+	position: relative;
+	overflow: hidden;
+}
+
+i {
+	position: relative;
+	top: 50%;
+}
+
+.animation__magic img {
+	width: 100%;
+	height: 300px;
+}
+
+
+.animation__eye {
+	background: rgba(0, 0, 0, 0.81);
+    height: 100%;
+    text-align: center;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    color: #fff;
+    opacity: 0;
+    transition: all ease 1s;
+}
+
+
+.animation__magic:hover .animation__eye  {
+	opacity: 1;
+}
+
+.footer {
+	height: 235px;
+	width: 100%;
+	background: #000;
+}
+
+.contacts {
+	display: flex;
+	color: #898989;
+	line-height: 2em;
+}
+
+.contacts__inc {
+	padding: 60px 0px 20px 0px;
+	color: #fff;
+}
+
+.contacts__connect {
+	padding: 60px 150px 0px 170px;
+}
+
+.contacts__about {
+	padding: 60px 65px 0px 0px;
+}
+
+.contacts__new {
+	padding: 60px 140px 0px 0px;
+}
+
+.contacts__social {
+	padding-top: 60px;
+}
+
+@media only screen and (max-width : 1130px) {
+	
+	.container {
+    	width: 100%;
+   		margin: 0 auto;
+	}
+	.navigation_boxs {
+	    width: 100%;
+	    padding-right: 10px;
+	}	
+
+}
